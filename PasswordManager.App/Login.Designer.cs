@@ -143,7 +143,7 @@
             // 
             this.txtLoginPass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(246)))));
             this.txtLoginPass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtLoginPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
+            this.txtLoginPass.ForeColor = System.Drawing.Color.Black;
             this.txtLoginPass.Location = new System.Drawing.Point(123, 152);
             this.txtLoginPass.Name = "txtLoginPass";
             this.txtLoginPass.Size = new System.Drawing.Size(225, 34);
@@ -156,7 +156,7 @@
             this.txtEmail.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.RecentlyUsedList;
             this.txtEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(246)))));
             this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
+            this.txtEmail.ForeColor = System.Drawing.Color.Black;
             this.txtEmail.Location = new System.Drawing.Point(123, 110);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(225, 34);
