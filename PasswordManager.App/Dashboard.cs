@@ -256,7 +256,6 @@ namespace PasswordManager.App
 
         private async void PasswordsGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            PasswordsGridView.ColumnHeadersDefaultCellStyle.BackColor = Color.Black;
             if (e.RowIndex >= 0)
             {
                 if (PasswordsGridView.Columns[e.ColumnIndex].Name == "ColCopy")
