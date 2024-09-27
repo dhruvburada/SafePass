@@ -110,5 +110,25 @@ namespace PasswordManager.App
         {
             Messenger.Show("Sorry! There is no way you can access your passwords without your Master Password.", "Warning");
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void picboxLoading_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblMassege_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -31,25 +31,11 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.MenuPanel = new System.Windows.Forms.Panel();
             this.lblMassege = new System.Windows.Forms.Label();
-            this.PasswordsContainerPanel = new System.Windows.Forms.Panel();
-            this.PasswordsGridView = new System.Windows.Forms.DataGridView();
-            this.ColID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColDateCreated = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColUsername = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColPassword = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.dataGridViewImageColumn3 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.ColCopy = new System.Windows.Forms.DataGridViewImageColumn();
-            this.ColUpdate = new System.Windows.Forms.DataGridViewImageColumn();
-            this.ColDelete = new System.Windows.Forms.DataGridViewImageColumn();
             this.btnGuide = new System.Windows.Forms.Button();
             this.btnSearchPassword = new System.Windows.Forms.Button();
             this.btnLogout = new System.Windows.Forms.Button();
@@ -60,6 +46,20 @@
             this.btnNewPassword = new System.Windows.Forms.Button();
             this.btnMasterPassword = new System.Windows.Forms.Button();
             this.btnTitle = new System.Windows.Forms.Button();
+            this.PasswordsContainerPanel = new System.Windows.Forms.Panel();
+            this.PasswordsGridView = new System.Windows.Forms.DataGridView();
+            this.ColID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColDateCreated = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColUsername = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColPassword = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColCopy = new System.Windows.Forms.DataGridViewImageColumn();
+            this.ColUpdate = new System.Windows.Forms.DataGridViewImageColumn();
+            this.ColDelete = new System.Windows.Forms.DataGridViewImageColumn();
+            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.dataGridViewImageColumn3 = new System.Windows.Forms.DataGridViewImageColumn();
             this.MenuPanel.SuspendLayout();
             this.PasswordsContainerPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PasswordsGridView)).BeginInit();
@@ -99,6 +99,229 @@
             this.lblMassege.Text = " ";
             this.lblMassege.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btnGuide
+            // 
+            this.btnGuide.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnGuide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
+            this.btnGuide.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnGuide.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGuide.FlatAppearance.BorderSize = 0;
+            this.btnGuide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuide.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuide.ForeColor = System.Drawing.Color.White;
+            this.btnGuide.Image = global::PasswordManager.App.Properties.Resources.password_guide;
+            this.btnGuide.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGuide.Location = new System.Drawing.Point(9, 370);
+            this.btnGuide.Name = "btnGuide";
+            this.btnGuide.Size = new System.Drawing.Size(207, 50);
+            this.btnGuide.TabIndex = 16;
+            this.btnGuide.Text = "          Guidelines";
+            this.btnGuide.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGuide.UseVisualStyleBackColor = false;
+            this.btnGuide.Click += new System.EventHandler(this.btnGuide_Click);
+            // 
+            // btnSearchPassword
+            // 
+            this.btnSearchPassword.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSearchPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
+            this.btnSearchPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnSearchPassword.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSearchPassword.FlatAppearance.BorderSize = 0;
+            this.btnSearchPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSearchPassword.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearchPassword.ForeColor = System.Drawing.Color.White;
+            this.btnSearchPassword.Image = global::PasswordManager.App.Properties.Resources.password_search;
+            this.btnSearchPassword.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSearchPassword.Location = new System.Drawing.Point(9, 90);
+            this.btnSearchPassword.Name = "btnSearchPassword";
+            this.btnSearchPassword.Size = new System.Drawing.Size(207, 50);
+            this.btnSearchPassword.TabIndex = 15;
+            this.btnSearchPassword.Text = "          Search Password";
+            this.btnSearchPassword.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSearchPassword.UseVisualStyleBackColor = false;
+            this.btnSearchPassword.Click += new System.EventHandler(this.btnSearchPassword_Click);
+            // 
+            // btnLogout
+            // 
+            this.btnLogout.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnLogout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
+            this.btnLogout.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnLogout.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLogout.FlatAppearance.BorderSize = 0;
+            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogout.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogout.ForeColor = System.Drawing.Color.White;
+            this.btnLogout.Image = global::PasswordManager.App.Properties.Resources.logout;
+            this.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLogout.Location = new System.Drawing.Point(9, 538);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(207, 50);
+            this.btnLogout.TabIndex = 14;
+            this.btnLogout.Text = "          Logout";
+            this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLogout.UseVisualStyleBackColor = false;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            // 
+            // btnAbout
+            // 
+            this.btnAbout.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnAbout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
+            this.btnAbout.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnAbout.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAbout.FlatAppearance.BorderSize = 0;
+            this.btnAbout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAbout.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAbout.ForeColor = System.Drawing.Color.White;
+            this.btnAbout.Image = global::PasswordManager.App.Properties.Resources.passwords_about_50;
+            this.btnAbout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAbout.Location = new System.Drawing.Point(9, 482);
+            this.btnAbout.Name = "btnAbout";
+            this.btnAbout.Size = new System.Drawing.Size(207, 50);
+            this.btnAbout.TabIndex = 13;
+            this.btnAbout.Text = "          About";
+            this.btnAbout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAbout.UseVisualStyleBackColor = false;
+            this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
+            // 
+            // btnSettings
+            // 
+            this.btnSettings.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
+            this.btnSettings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnSettings.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSettings.FlatAppearance.BorderSize = 0;
+            this.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSettings.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSettings.ForeColor = System.Drawing.Color.White;
+            this.btnSettings.Image = global::PasswordManager.App.Properties.Resources.settings;
+            this.btnSettings.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSettings.Location = new System.Drawing.Point(9, 426);
+            this.btnSettings.Name = "btnSettings";
+            this.btnSettings.Size = new System.Drawing.Size(207, 50);
+            this.btnSettings.TabIndex = 12;
+            this.btnSettings.Text = "          Settings";
+            this.btnSettings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSettings.UseVisualStyleBackColor = false;
+            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
+            // 
+            // btnExportPasswords
+            // 
+            this.btnExportPasswords.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnExportPasswords.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
+            this.btnExportPasswords.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnExportPasswords.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExportPasswords.FlatAppearance.BorderSize = 0;
+            this.btnExportPasswords.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExportPasswords.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExportPasswords.ForeColor = System.Drawing.Color.White;
+            this.btnExportPasswords.Image = global::PasswordManager.App.Properties.Resources.password_export;
+            this.btnExportPasswords.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnExportPasswords.Location = new System.Drawing.Point(9, 314);
+            this.btnExportPasswords.Name = "btnExportPasswords";
+            this.btnExportPasswords.Size = new System.Drawing.Size(207, 50);
+            this.btnExportPasswords.TabIndex = 11;
+            this.btnExportPasswords.Text = "          Export Passwords";
+            this.btnExportPasswords.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnExportPasswords.UseVisualStyleBackColor = false;
+            this.btnExportPasswords.Click += new System.EventHandler(this.btnExportPasswords_Click);
+            // 
+            // btnImportPasswords
+            // 
+            this.btnImportPasswords.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnImportPasswords.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
+            this.btnImportPasswords.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnImportPasswords.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnImportPasswords.FlatAppearance.BorderSize = 0;
+            this.btnImportPasswords.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnImportPasswords.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnImportPasswords.ForeColor = System.Drawing.Color.White;
+            this.btnImportPasswords.Image = global::PasswordManager.App.Properties.Resources.password_import;
+            this.btnImportPasswords.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnImportPasswords.Location = new System.Drawing.Point(9, 258);
+            this.btnImportPasswords.Name = "btnImportPasswords";
+            this.btnImportPasswords.Size = new System.Drawing.Size(207, 50);
+            this.btnImportPasswords.TabIndex = 10;
+            this.btnImportPasswords.Text = "          Import Passwords";
+            this.btnImportPasswords.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnImportPasswords.UseVisualStyleBackColor = false;
+            this.btnImportPasswords.Click += new System.EventHandler(this.btnImportPasswords_Click);
+            // 
+            // btnNewPassword
+            // 
+            this.btnNewPassword.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnNewPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
+            this.btnNewPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnNewPassword.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNewPassword.FlatAppearance.BorderSize = 0;
+            this.btnNewPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNewPassword.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNewPassword.ForeColor = System.Drawing.Color.White;
+            this.btnNewPassword.Image = global::PasswordManager.App.Properties.Resources.password_new;
+            this.btnNewPassword.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNewPassword.Location = new System.Drawing.Point(9, 146);
+            this.btnNewPassword.Name = "btnNewPassword";
+            this.btnNewPassword.Size = new System.Drawing.Size(207, 50);
+            this.btnNewPassword.TabIndex = 9;
+            this.btnNewPassword.Text = "          New Password";
+            this.btnNewPassword.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNewPassword.UseVisualStyleBackColor = false;
+            this.btnNewPassword.Click += new System.EventHandler(this.btnNewPassword_Click);
+            // 
+            // btnMasterPassword
+            // 
+            this.btnMasterPassword.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMasterPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
+            this.btnMasterPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnMasterPassword.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMasterPassword.FlatAppearance.BorderSize = 0;
+            this.btnMasterPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMasterPassword.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMasterPassword.ForeColor = System.Drawing.Color.White;
+            this.btnMasterPassword.Image = global::PasswordManager.App.Properties.Resources.password_master;
+            this.btnMasterPassword.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMasterPassword.Location = new System.Drawing.Point(9, 202);
+            this.btnMasterPassword.Name = "btnMasterPassword";
+            this.btnMasterPassword.Size = new System.Drawing.Size(207, 50);
+            this.btnMasterPassword.TabIndex = 8;
+            this.btnMasterPassword.Text = "          Master Password";
+            this.btnMasterPassword.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMasterPassword.UseVisualStyleBackColor = false;
+            this.btnMasterPassword.Click += new System.EventHandler(this.btnMasterPassword_Click);
+            // 
+            // btnTitle
+            // 
+            this.btnTitle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
+            this.btnTitle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnTitle.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.btnTitle.FlatAppearance.BorderSize = 0;
+            this.btnTitle.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
+            this.btnTitle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
+            this.btnTitle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTitle.ForeColor = System.Drawing.Color.White;
+            this.btnTitle.Image = global::PasswordManager.App.Properties.Resources.flag_bear;
+            this.btnTitle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTitle.Location = new System.Drawing.Point(9, 0);
+            this.btnTitle.Name = "btnTitle";
+            this.btnTitle.Size = new System.Drawing.Size(207, 84);
+            this.btnTitle.TabIndex = 7;
+            this.btnTitle.Text = "Password Manager";
+            this.btnTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTitle.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnTitle.UseVisualStyleBackColor = false;
+            this.btnTitle.Click += new System.EventHandler(this.btnTitle_Click);
+            // 
             // PasswordsContainerPanel
             // 
             this.PasswordsContainerPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -121,7 +344,7 @@
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
             this.PasswordsGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.PasswordsGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.PasswordsGridView.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
+            this.PasswordsGridView.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
             this.PasswordsGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.PasswordsGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -152,6 +375,7 @@
             this.PasswordsGridView.Name = "PasswordsGridView";
             this.PasswordsGridView.ReadOnly = true;
             this.PasswordsGridView.RowHeadersVisible = false;
+            this.PasswordsGridView.RowHeadersWidth = 51;
             dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
             dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(118)))), ((int)(((byte)(210)))));
@@ -168,6 +392,7 @@
             // 
             this.ColID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.ColID.HeaderText = "ID";
+            this.ColID.MinimumWidth = 6;
             this.ColID.Name = "ColID";
             this.ColID.ReadOnly = true;
             this.ColID.Visible = false;
@@ -177,76 +402,40 @@
             // 
             this.ColDateCreated.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.ColDateCreated.HeaderText = "Date Created";
+            this.ColDateCreated.MinimumWidth = 6;
             this.ColDateCreated.Name = "ColDateCreated";
             this.ColDateCreated.ReadOnly = true;
-            this.ColDateCreated.Width = 124;
+            this.ColDateCreated.Width = 154;
             // 
             // ColName
             // 
             this.ColName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.ColName.HeaderText = "Name";
+            this.ColName.MinimumWidth = 6;
             this.ColName.Name = "ColName";
             this.ColName.ReadOnly = true;
-            this.ColName.Width = 76;
+            this.ColName.Width = 92;
             // 
             // ColEmail
             // 
             this.ColEmail.HeaderText = "Email";
+            this.ColEmail.MinimumWidth = 6;
             this.ColEmail.Name = "ColEmail";
             this.ColEmail.ReadOnly = true;
             // 
             // ColUsername
             // 
             this.ColUsername.HeaderText = "Username";
+            this.ColUsername.MinimumWidth = 6;
             this.ColUsername.Name = "ColUsername";
             this.ColUsername.ReadOnly = true;
             // 
             // ColPassword
             // 
             this.ColPassword.HeaderText = "Password";
+            this.ColPassword.MinimumWidth = 6;
             this.ColPassword.Name = "ColPassword";
             this.ColPassword.ReadOnly = true;
-            // 
-            // dataGridViewImageColumn1
-            // 
-            this.dataGridViewImageColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle5.NullValue")));
-            this.dataGridViewImageColumn1.DefaultCellStyle = dataGridViewCellStyle5;
-            this.dataGridViewImageColumn1.Description = "Copy This Password";
-            this.dataGridViewImageColumn1.HeaderText = "Copy";
-            this.dataGridViewImageColumn1.Image = global::PasswordManager.App.Properties.Resources.edit;
-            this.dataGridViewImageColumn1.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
-            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
-            this.dataGridViewImageColumn1.ReadOnly = true;
-            this.dataGridViewImageColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewImageColumn1.Width = 73;
-            // 
-            // dataGridViewImageColumn2
-            // 
-            this.dataGridViewImageColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.dataGridViewImageColumn2.Description = "Update This Password";
-            this.dataGridViewImageColumn2.HeaderText = "Update";
-            this.dataGridViewImageColumn2.Image = global::PasswordManager.App.Properties.Resources.edit;
-            this.dataGridViewImageColumn2.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
-            this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
-            this.dataGridViewImageColumn2.ReadOnly = true;
-            this.dataGridViewImageColumn2.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewImageColumn2.Width = 73;
-            // 
-            // dataGridViewImageColumn3
-            // 
-            this.dataGridViewImageColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.dataGridViewImageColumn3.Description = "Delete This Password";
-            this.dataGridViewImageColumn3.HeaderText = "Delete";
-            this.dataGridViewImageColumn3.Image = global::PasswordManager.App.Properties.Resources.page_delete;
-            this.dataGridViewImageColumn3.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
-            this.dataGridViewImageColumn3.Name = "dataGridViewImageColumn3";
-            this.dataGridViewImageColumn3.ReadOnly = true;
-            this.dataGridViewImageColumn3.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewImageColumn3.Width = 73;
             // 
             // ColCopy
             // 
@@ -260,6 +449,7 @@
             this.ColCopy.HeaderText = "Copy";
             this.ColCopy.Image = global::PasswordManager.App.Properties.Resources.page_copy;
             this.ColCopy.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.ColCopy.MinimumWidth = 6;
             this.ColCopy.Name = "ColCopy";
             this.ColCopy.ReadOnly = true;
             this.ColCopy.Resizable = System.Windows.Forms.DataGridViewTriState.True;
@@ -272,6 +462,7 @@
             this.ColUpdate.HeaderText = "Update";
             this.ColUpdate.Image = global::PasswordManager.App.Properties.Resources.page_edit;
             this.ColUpdate.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.ColUpdate.MinimumWidth = 6;
             this.ColUpdate.Name = "ColUpdate";
             this.ColUpdate.ReadOnly = true;
             this.ColUpdate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
@@ -284,233 +475,55 @@
             this.ColDelete.HeaderText = "Delete";
             this.ColDelete.Image = global::PasswordManager.App.Properties.Resources.page_delete;
             this.ColDelete.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.ColDelete.MinimumWidth = 6;
             this.ColDelete.Name = "ColDelete";
             this.ColDelete.ReadOnly = true;
             this.ColDelete.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.ColDelete.Width = 73;
             // 
-            // btnGuide
+            // dataGridViewImageColumn1
             // 
-            this.btnGuide.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnGuide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
-            this.btnGuide.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnGuide.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnGuide.FlatAppearance.BorderSize = 0;
-            this.btnGuide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGuide.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuide.ForeColor = System.Drawing.Color.White;
-            this.btnGuide.Image = global::PasswordManager.App.Properties.Resources.password_guide;
-            this.btnGuide.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuide.Location = new System.Drawing.Point(9, 370);
-            this.btnGuide.Name = "btnGuide";
-            this.btnGuide.Size = new System.Drawing.Size(207, 50);
-            this.btnGuide.TabIndex = 16;
-            this.btnGuide.Text = "          Guidelines";
-            this.btnGuide.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuide.UseVisualStyleBackColor = false;
-            this.btnGuide.Click += new System.EventHandler(this.btnGuide_Click);
+            this.dataGridViewImageColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle5.NullValue")));
+            this.dataGridViewImageColumn1.DefaultCellStyle = dataGridViewCellStyle5;
+            this.dataGridViewImageColumn1.Description = "Copy This Password";
+            this.dataGridViewImageColumn1.HeaderText = "Copy";
+            this.dataGridViewImageColumn1.Image = global::PasswordManager.App.Properties.Resources.edit;
+            this.dataGridViewImageColumn1.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.dataGridViewImageColumn1.MinimumWidth = 6;
+            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
+            this.dataGridViewImageColumn1.ReadOnly = true;
+            this.dataGridViewImageColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewImageColumn1.Width = 73;
             // 
-            // btnSearchPassword
+            // dataGridViewImageColumn2
             // 
-            this.btnSearchPassword.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSearchPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
-            this.btnSearchPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnSearchPassword.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSearchPassword.FlatAppearance.BorderSize = 0;
-            this.btnSearchPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSearchPassword.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearchPassword.ForeColor = System.Drawing.Color.White;
-            this.btnSearchPassword.Image = global::PasswordManager.App.Properties.Resources.password_search;
-            this.btnSearchPassword.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSearchPassword.Location = new System.Drawing.Point(9, 90);
-            this.btnSearchPassword.Name = "btnSearchPassword";
-            this.btnSearchPassword.Size = new System.Drawing.Size(207, 50);
-            this.btnSearchPassword.TabIndex = 15;
-            this.btnSearchPassword.Text = "          Search Password";
-            this.btnSearchPassword.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSearchPassword.UseVisualStyleBackColor = false;
-            this.btnSearchPassword.Click += new System.EventHandler(this.btnSearchPassword_Click);
+            this.dataGridViewImageColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewImageColumn2.Description = "Update This Password";
+            this.dataGridViewImageColumn2.HeaderText = "Update";
+            this.dataGridViewImageColumn2.Image = global::PasswordManager.App.Properties.Resources.edit;
+            this.dataGridViewImageColumn2.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.dataGridViewImageColumn2.MinimumWidth = 6;
+            this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
+            this.dataGridViewImageColumn2.ReadOnly = true;
+            this.dataGridViewImageColumn2.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewImageColumn2.Width = 73;
             // 
-            // btnLogout
+            // dataGridViewImageColumn3
             // 
-            this.btnLogout.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnLogout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
-            this.btnLogout.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnLogout.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLogout.FlatAppearance.BorderSize = 0;
-            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogout.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogout.ForeColor = System.Drawing.Color.White;
-            this.btnLogout.Image = global::PasswordManager.App.Properties.Resources.logout;
-            this.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogout.Location = new System.Drawing.Point(9, 538);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(207, 50);
-            this.btnLogout.TabIndex = 14;
-            this.btnLogout.Text = "          Logout";
-            this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogout.UseVisualStyleBackColor = false;
-            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
-            // 
-            // btnAbout
-            // 
-            this.btnAbout.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAbout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
-            this.btnAbout.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnAbout.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAbout.FlatAppearance.BorderSize = 0;
-            this.btnAbout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAbout.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAbout.ForeColor = System.Drawing.Color.White;
-            this.btnAbout.Image = global::PasswordManager.App.Properties.Resources.passwords_about_50;
-            this.btnAbout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAbout.Location = new System.Drawing.Point(9, 482);
-            this.btnAbout.Name = "btnAbout";
-            this.btnAbout.Size = new System.Drawing.Size(207, 50);
-            this.btnAbout.TabIndex = 13;
-            this.btnAbout.Text = "          About";
-            this.btnAbout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAbout.UseVisualStyleBackColor = false;
-            this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
-            // 
-            // btnSettings
-            // 
-            this.btnSettings.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
-            this.btnSettings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnSettings.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSettings.FlatAppearance.BorderSize = 0;
-            this.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSettings.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSettings.ForeColor = System.Drawing.Color.White;
-            this.btnSettings.Image = global::PasswordManager.App.Properties.Resources.settings;
-            this.btnSettings.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSettings.Location = new System.Drawing.Point(9, 426);
-            this.btnSettings.Name = "btnSettings";
-            this.btnSettings.Size = new System.Drawing.Size(207, 50);
-            this.btnSettings.TabIndex = 12;
-            this.btnSettings.Text = "          Settings";
-            this.btnSettings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSettings.UseVisualStyleBackColor = false;
-            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
-            // 
-            // btnExportPasswords
-            // 
-            this.btnExportPasswords.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExportPasswords.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
-            this.btnExportPasswords.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnExportPasswords.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnExportPasswords.FlatAppearance.BorderSize = 0;
-            this.btnExportPasswords.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExportPasswords.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExportPasswords.ForeColor = System.Drawing.Color.White;
-            this.btnExportPasswords.Image = global::PasswordManager.App.Properties.Resources.password_export;
-            this.btnExportPasswords.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnExportPasswords.Location = new System.Drawing.Point(9, 314);
-            this.btnExportPasswords.Name = "btnExportPasswords";
-            this.btnExportPasswords.Size = new System.Drawing.Size(207, 50);
-            this.btnExportPasswords.TabIndex = 11;
-            this.btnExportPasswords.Text = "          Export Passwords";
-            this.btnExportPasswords.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnExportPasswords.UseVisualStyleBackColor = false;
-            this.btnExportPasswords.Click += new System.EventHandler(this.btnExportPasswords_Click);
-            // 
-            // btnImportPasswords
-            // 
-            this.btnImportPasswords.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnImportPasswords.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
-            this.btnImportPasswords.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnImportPasswords.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnImportPasswords.FlatAppearance.BorderSize = 0;
-            this.btnImportPasswords.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnImportPasswords.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnImportPasswords.ForeColor = System.Drawing.Color.White;
-            this.btnImportPasswords.Image = global::PasswordManager.App.Properties.Resources.password_import;
-            this.btnImportPasswords.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnImportPasswords.Location = new System.Drawing.Point(9, 258);
-            this.btnImportPasswords.Name = "btnImportPasswords";
-            this.btnImportPasswords.Size = new System.Drawing.Size(207, 50);
-            this.btnImportPasswords.TabIndex = 10;
-            this.btnImportPasswords.Text = "          Import Passwords";
-            this.btnImportPasswords.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnImportPasswords.UseVisualStyleBackColor = false;
-            this.btnImportPasswords.Click += new System.EventHandler(this.btnImportPasswords_Click);
-            // 
-            // btnNewPassword
-            // 
-            this.btnNewPassword.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnNewPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
-            this.btnNewPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnNewPassword.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnNewPassword.FlatAppearance.BorderSize = 0;
-            this.btnNewPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNewPassword.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNewPassword.ForeColor = System.Drawing.Color.White;
-            this.btnNewPassword.Image = global::PasswordManager.App.Properties.Resources.password_new;
-            this.btnNewPassword.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNewPassword.Location = new System.Drawing.Point(9, 146);
-            this.btnNewPassword.Name = "btnNewPassword";
-            this.btnNewPassword.Size = new System.Drawing.Size(207, 50);
-            this.btnNewPassword.TabIndex = 9;
-            this.btnNewPassword.Text = "          New Password";
-            this.btnNewPassword.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNewPassword.UseVisualStyleBackColor = false;
-            this.btnNewPassword.Click += new System.EventHandler(this.btnNewPassword_Click);
-            // 
-            // btnMasterPassword
-            // 
-            this.btnMasterPassword.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMasterPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
-            this.btnMasterPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnMasterPassword.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMasterPassword.FlatAppearance.BorderSize = 0;
-            this.btnMasterPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMasterPassword.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMasterPassword.ForeColor = System.Drawing.Color.White;
-            this.btnMasterPassword.Image = global::PasswordManager.App.Properties.Resources.password_master;
-            this.btnMasterPassword.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMasterPassword.Location = new System.Drawing.Point(9, 202);
-            this.btnMasterPassword.Name = "btnMasterPassword";
-            this.btnMasterPassword.Size = new System.Drawing.Size(207, 50);
-            this.btnMasterPassword.TabIndex = 8;
-            this.btnMasterPassword.Text = "          Master Password";
-            this.btnMasterPassword.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMasterPassword.UseVisualStyleBackColor = false;
-            this.btnMasterPassword.Click += new System.EventHandler(this.btnMasterPassword_Click);
-            // 
-            // btnTitle
-            // 
-            this.btnTitle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
-            this.btnTitle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnTitle.Cursor = System.Windows.Forms.Cursors.Cross;
-            this.btnTitle.FlatAppearance.BorderSize = 0;
-            this.btnTitle.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
-            this.btnTitle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
-            this.btnTitle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTitle.ForeColor = System.Drawing.Color.White;
-            this.btnTitle.Image = global::PasswordManager.App.Properties.Resources.flag_bear;
-            this.btnTitle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTitle.Location = new System.Drawing.Point(9, 0);
-            this.btnTitle.Name = "btnTitle";
-            this.btnTitle.Size = new System.Drawing.Size(207, 84);
-            this.btnTitle.TabIndex = 7;
-            this.btnTitle.Text = "Password Manager";
-            this.btnTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTitle.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnTitle.UseVisualStyleBackColor = false;
-            this.btnTitle.Click += new System.EventHandler(this.btnTitle_Click);
+            this.dataGridViewImageColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewImageColumn3.Description = "Delete This Password";
+            this.dataGridViewImageColumn3.HeaderText = "Delete";
+            this.dataGridViewImageColumn3.Image = global::PasswordManager.App.Properties.Resources.page_delete;
+            this.dataGridViewImageColumn3.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.dataGridViewImageColumn3.MinimumWidth = 6;
+            this.dataGridViewImageColumn3.Name = "dataGridViewImageColumn3";
+            this.dataGridViewImageColumn3.ReadOnly = true;
+            this.dataGridViewImageColumn3.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewImageColumn3.Width = 73;
             // 
             // Dashboard
             // 
