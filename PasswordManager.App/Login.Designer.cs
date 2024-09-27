@@ -59,7 +59,7 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(584, 461);
+            this.panel1.Size = new System.Drawing.Size(532, 461);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -77,7 +77,7 @@
             this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.pictureBox1);
-            this.panel3.Location = new System.Drawing.Point(96, 74);
+            this.panel3.Location = new System.Drawing.Point(70, 74);
             this.panel3.Margin = new System.Windows.Forms.Padding(0);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(397, 314);
@@ -86,7 +86,7 @@
             // picboxLoading
             // 
             this.picboxLoading.Image = global::PasswordManager.App.Properties.Resources.loading_gear_anim;
-            this.picboxLoading.Location = new System.Drawing.Point(123, 183);
+            this.picboxLoading.Location = new System.Drawing.Point(123, 197);
             this.picboxLoading.Name = "picboxLoading";
             this.picboxLoading.Size = new System.Drawing.Size(45, 43);
             this.picboxLoading.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -97,7 +97,7 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(131)))), ((int)(((byte)(116)))));
+            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
             this.btnLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLogin.FlatAppearance.BorderSize = 0;
@@ -106,7 +106,7 @@
             this.btnLogin.ForeColor = System.Drawing.Color.White;
             this.btnLogin.Image = global::PasswordManager.App.Properties.Resources.login_40;
             this.btnLogin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogin.Location = new System.Drawing.Point(238, 183);
+            this.btnLogin.Location = new System.Drawing.Point(238, 197);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(110, 42);
             this.btnLogin.TabIndex = 25;
@@ -120,7 +120,7 @@
             this.lblCreateAccount.AutoSize = true;
             this.lblCreateAccount.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblCreateAccount.ForeColor = System.Drawing.Color.White;
-            this.lblCreateAccount.Location = new System.Drawing.Point(239, 251);
+            this.lblCreateAccount.Location = new System.Drawing.Point(239, 264);
             this.lblCreateAccount.Name = "lblCreateAccount";
             this.lblCreateAccount.Size = new System.Drawing.Size(145, 28);
             this.lblCreateAccount.TabIndex = 8;
@@ -132,7 +132,7 @@
             this.lblForgotPassword.AutoSize = true;
             this.lblForgotPassword.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblForgotPassword.ForeColor = System.Drawing.Color.White;
-            this.lblForgotPassword.Location = new System.Drawing.Point(33, 251);
+            this.lblForgotPassword.Location = new System.Drawing.Point(33, 264);
             this.lblForgotPassword.Name = "lblForgotPassword";
             this.lblForgotPassword.Size = new System.Drawing.Size(167, 28);
             this.lblForgotPassword.TabIndex = 7;
@@ -144,7 +144,7 @@
             this.txtLoginPass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(246)))));
             this.txtLoginPass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtLoginPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
-            this.txtLoginPass.Location = new System.Drawing.Point(123, 145);
+            this.txtLoginPass.Location = new System.Drawing.Point(123, 152);
             this.txtLoginPass.Name = "txtLoginPass";
             this.txtLoginPass.Size = new System.Drawing.Size(225, 34);
             this.txtLoginPass.TabIndex = 5;
@@ -166,7 +166,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(33, 147);
+            this.label3.Location = new System.Drawing.Point(27, 154);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(102, 28);
             this.label3.TabIndex = 3;
@@ -212,7 +212,7 @@
             this.panel2.Controls.Add(this.lblMassege);
             this.panel2.Location = new System.Drawing.Point(0, 262);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(584, 199);
+            this.panel2.Size = new System.Drawing.Size(532, 199);
             this.panel2.TabIndex = 0;
             // 
             // lblMassege
@@ -221,7 +221,7 @@
             this.lblMassege.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblMassege.Location = new System.Drawing.Point(0, 135);
             this.lblMassege.Name = "lblMassege";
-            this.lblMassege.Size = new System.Drawing.Size(584, 64);
+            this.lblMassege.Size = new System.Drawing.Size(532, 64);
             this.lblMassege.TabIndex = 15;
             this.lblMassege.Text = " ";
             this.lblMassege.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -230,7 +230,7 @@
             // Login
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(584, 461);
+            this.ClientSize = new System.Drawing.Size(532, 461);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));

@@ -121,5 +121,10 @@ namespace PasswordManager.App
             lblMassege.Text = string.Empty;
             btnRegister.Enabled = true;
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
