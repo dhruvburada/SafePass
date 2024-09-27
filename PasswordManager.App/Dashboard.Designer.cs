@@ -369,7 +369,6 @@
             this.ColDelete});
             this.PasswordsGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PasswordsGridView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.PasswordsGridView.EnableHeadersVisualStyles = false;
             this.PasswordsGridView.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(121)))), ((int)(((byte)(255)))));
             this.PasswordsGridView.Location = new System.Drawing.Point(0, 0);
             this.PasswordsGridView.Name = "PasswordsGridView";
@@ -405,7 +404,7 @@
             this.ColDateCreated.MinimumWidth = 6;
             this.ColDateCreated.Name = "ColDateCreated";
             this.ColDateCreated.ReadOnly = true;
-            this.ColDateCreated.Width = 154;
+            this.ColDateCreated.Width = 155;
             // 
             // ColName
             // 
@@ -414,7 +413,7 @@
             this.ColName.MinimumWidth = 6;
             this.ColName.Name = "ColName";
             this.ColName.ReadOnly = true;
-            this.ColName.Width = 92;
+            this.ColName.Width = 93;
             // 
             // ColEmail
             // 

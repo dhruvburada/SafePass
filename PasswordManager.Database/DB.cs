@@ -19,7 +19,11 @@ namespace PasswordManager.Database
         protected DB()
         {
             //ConnectionString = Properties.Settings.Default["PasswordManagerDBConnection"].ToString();
-            ConnectionString = Globals.DatabaseConnection.Instance().GetValue();
+            //ConnectionString = Globals.DatabaseConnection.Instance().GetValue();
+
+            ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.Database\\Password-Manager-Own.mdf;Integrated Security=True";
+
+
         }
 
         public static DB Instance()
