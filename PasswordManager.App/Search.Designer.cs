@@ -49,10 +49,10 @@
             // 
             this.txtSearchPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(246)))));
             this.txtSearchPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSearchPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
+            this.txtSearchPassword.ForeColor = System.Drawing.Color.Black;
             this.txtSearchPassword.Location = new System.Drawing.Point(88, 16);
             this.txtSearchPassword.Name = "txtSearchPassword";
-            this.txtSearchPassword.Size = new System.Drawing.Size(167, 25);
+            this.txtSearchPassword.Size = new System.Drawing.Size(167, 29);
             this.txtSearchPassword.TabIndex = 1;
             // 
             // label2
@@ -60,7 +60,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(7, 19);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 17);
+            this.label2.Size = new System.Drawing.Size(91, 23);
             this.label2.TabIndex = 17;
             this.label2.Text = "Password :";
             // 
@@ -79,7 +79,7 @@
             this.rdbOptionEquals.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rdbOptionEquals.Location = new System.Drawing.Point(5, 5);
             this.rdbOptionEquals.Name = "rdbOptionEquals";
-            this.rdbOptionEquals.Size = new System.Drawing.Size(64, 21);
+            this.rdbOptionEquals.Size = new System.Drawing.Size(79, 27);
             this.rdbOptionEquals.TabIndex = 6;
             this.rdbOptionEquals.Text = "Equals";
             this.rdbOptionEquals.UseVisualStyleBackColor = true;
@@ -89,9 +89,9 @@
             this.rdbOptionContains.AutoSize = true;
             this.rdbOptionContains.Checked = true;
             this.rdbOptionContains.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rdbOptionContains.Location = new System.Drawing.Point(81, 5);
+            this.rdbOptionContains.Location = new System.Drawing.Point(85, 5);
             this.rdbOptionContains.Name = "rdbOptionContains";
-            this.rdbOptionContains.Size = new System.Drawing.Size(78, 21);
+            this.rdbOptionContains.Size = new System.Drawing.Size(97, 27);
             this.rdbOptionContains.TabIndex = 7;
             this.rdbOptionContains.TabStop = true;
             this.rdbOptionContains.Text = "Contains";
@@ -113,7 +113,7 @@
             this.rdbLookUsername.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rdbLookUsername.Location = new System.Drawing.Point(81, 5);
             this.rdbLookUsername.Name = "rdbLookUsername";
-            this.rdbLookUsername.Size = new System.Drawing.Size(86, 21);
+            this.rdbLookUsername.Size = new System.Drawing.Size(107, 27);
             this.rdbLookUsername.TabIndex = 4;
             this.rdbLookUsername.Text = "Username";
             this.rdbLookUsername.UseVisualStyleBackColor = true;
@@ -123,9 +123,10 @@
             this.rdbLookName.AutoSize = true;
             this.rdbLookName.Checked = true;
             this.rdbLookName.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rdbLookName.ForeColor = System.Drawing.Color.White;
             this.rdbLookName.Location = new System.Drawing.Point(5, 5);
             this.rdbLookName.Name = "rdbLookName";
-            this.rdbLookName.Size = new System.Drawing.Size(61, 21);
+            this.rdbLookName.Size = new System.Drawing.Size(76, 27);
             this.rdbLookName.TabIndex = 3;
             this.rdbLookName.TabStop = true;
             this.rdbLookName.Text = "Name";
@@ -135,9 +136,9 @@
             // 
             this.rdbLookEmail.AutoSize = true;
             this.rdbLookEmail.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rdbLookEmail.Location = new System.Drawing.Point(186, 5);
+            this.rdbLookEmail.Location = new System.Drawing.Point(193, 5);
             this.rdbLookEmail.Name = "rdbLookEmail";
-            this.rdbLookEmail.Size = new System.Drawing.Size(57, 21);
+            this.rdbLookEmail.Size = new System.Drawing.Size(71, 27);
             this.rdbLookEmail.TabIndex = 5;
             this.rdbLookEmail.Text = "Email";
             this.rdbLookEmail.UseVisualStyleBackColor = true;
@@ -147,7 +148,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(9, 61);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 17);
+            this.label1.Size = new System.Drawing.Size(86, 23);
             this.label1.TabIndex = 44;
             this.label1.Text = "Look For :";
             // 
@@ -156,13 +157,13 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(14, 97);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 17);
+            this.label3.Size = new System.Drawing.Size(79, 23);
             this.label3.TabIndex = 45;
             this.label3.Text = "Options :";
             // 
             // btnSearchPassword
             // 
-            this.btnSearchPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(175)))), ((int)(((byte)(80)))));
+            this.btnSearchPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
             this.btnSearchPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnSearchPassword.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSearchPassword.DialogResult = System.Windows.Forms.DialogResult.OK;
@@ -185,7 +186,7 @@
             // 
             this.AcceptButton = this.btnSearchPassword;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
             this.ClientSize = new System.Drawing.Size(384, 131);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
