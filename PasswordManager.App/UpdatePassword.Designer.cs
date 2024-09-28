@@ -60,10 +60,11 @@
             // rtxtNotes
             // 
             this.rtxtNotes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(246)))));
-            this.rtxtNotes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
-            this.rtxtNotes.Location = new System.Drawing.Point(164, 90);
+            this.rtxtNotes.ForeColor = System.Drawing.Color.Black;
+            this.rtxtNotes.Location = new System.Drawing.Point(219, 111);
+            this.rtxtNotes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rtxtNotes.Name = "rtxtNotes";
-            this.rtxtNotes.Size = new System.Drawing.Size(224, 100);
+            this.rtxtNotes.Size = new System.Drawing.Size(297, 122);
             this.rtxtNotes.TabIndex = 6;
             this.rtxtNotes.Text = "";
             this.rtxtNotes.TextChanged += new System.EventHandler(this.ForSaveBtnEnable);
@@ -72,28 +73,33 @@
             // 
             this.txtPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(246)))));
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
-            this.txtPassword.Location = new System.Drawing.Point(164, 7);
+            this.txtPassword.ForeColor = System.Drawing.Color.Black;
+            this.txtPassword.Location = new System.Drawing.Point(219, 9);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(225, 29);
+            this.txtPassword.Size = new System.Drawing.Size(299, 34);
             this.txtPassword.TabIndex = 23;
             this.txtPassword.TextChanged += new System.EventHandler(this.ForSaveBtnEnable);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(75, 9);
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
+            this.label4.Location = new System.Drawing.Point(100, 11);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 21);
+            this.label4.Size = new System.Drawing.Size(102, 28);
             this.label4.TabIndex = 22;
             this.label4.Text = "Password :";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(100, 93);
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
+            this.label7.Location = new System.Drawing.Point(133, 114);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(58, 21);
+            this.label7.Size = new System.Drawing.Size(73, 28);
             this.label7.TabIndex = 23;
             this.label7.Text = "Notes :";
             // 
@@ -111,9 +117,10 @@
             this.panel2.Controls.Add(this.btnGenerate);
             this.panel2.Controls.Add(this.label7);
             this.panel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
-            this.panel2.Location = new System.Drawing.Point(0, 215);
+            this.panel2.Location = new System.Drawing.Point(0, 256);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(484, 246);
+            this.panel2.Size = new System.Drawing.Size(643, 303);
             this.panel2.TabIndex = 60;
             // 
             // btnCancel
@@ -128,9 +135,10 @@
             this.btnCancel.ForeColor = System.Drawing.Color.White;
             this.btnCancel.Image = global::PasswordManager.App.Properties.Resources.password_cancel_40;
             this.btnCancel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCancel.Location = new System.Drawing.Point(163, 196);
+            this.btnCancel.Location = new System.Drawing.Point(217, 241);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(110, 42);
+            this.btnCancel.Size = new System.Drawing.Size(147, 52);
             this.btnCancel.TabIndex = 8;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -138,7 +146,7 @@
             // 
             // btnOptions
             // 
-            this.btnOptions.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
+            this.btnOptions.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
             this.btnOptions.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnOptions.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnOptions.FlatAppearance.BorderSize = 0;
@@ -147,9 +155,10 @@
             this.btnOptions.ForeColor = System.Drawing.Color.White;
             this.btnOptions.Image = global::PasswordManager.App.Properties.Resources.password_options;
             this.btnOptions.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOptions.Location = new System.Drawing.Point(164, 42);
+            this.btnOptions.Location = new System.Drawing.Point(219, 52);
+            this.btnOptions.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnOptions.Name = "btnOptions";
-            this.btnOptions.Size = new System.Drawing.Size(110, 42);
+            this.btnOptions.Size = new System.Drawing.Size(147, 52);
             this.btnOptions.TabIndex = 9;
             this.btnOptions.Text = "Options";
             this.btnOptions.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -158,7 +167,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(175)))), ((int)(((byte)(80)))));
+            this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
             this.btnSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnSave.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSave.DialogResult = System.Windows.Forms.DialogResult.OK;
@@ -168,9 +177,10 @@
             this.btnSave.ForeColor = System.Drawing.Color.White;
             this.btnSave.Image = global::PasswordManager.App.Properties.Resources.password_new_40;
             this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSave.Location = new System.Drawing.Point(279, 196);
+            this.btnSave.Location = new System.Drawing.Point(372, 241);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(110, 42);
+            this.btnSave.Size = new System.Drawing.Size(147, 52);
             this.btnSave.TabIndex = 7;
             this.btnSave.Text = "Save";
             this.btnSave.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -179,7 +189,7 @@
             // 
             // btnGenerate
             // 
-            this.btnGenerate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
+            this.btnGenerate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
             this.btnGenerate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnGenerate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGenerate.FlatAppearance.BorderSize = 0;
@@ -188,9 +198,10 @@
             this.btnGenerate.ForeColor = System.Drawing.Color.White;
             this.btnGenerate.Image = global::PasswordManager.App.Properties.Resources.password_generate;
             this.btnGenerate.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGenerate.Location = new System.Drawing.Point(279, 42);
+            this.btnGenerate.Location = new System.Drawing.Point(372, 52);
+            this.btnGenerate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGenerate.Name = "btnGenerate";
-            this.btnGenerate.Size = new System.Drawing.Size(110, 42);
+            this.btnGenerate.Size = new System.Drawing.Size(147, 52);
             this.btnGenerate.TabIndex = 5;
             this.btnGenerate.Text = "Generate";
             this.btnGenerate.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -201,18 +212,20 @@
             // 
             this.lblFormTitle.AutoSize = true;
             this.lblFormTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold);
-            this.lblFormTitle.Location = new System.Drawing.Point(63, 8);
+            this.lblFormTitle.Location = new System.Drawing.Point(84, 10);
+            this.lblFormTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFormTitle.Name = "lblFormTitle";
-            this.lblFormTitle.Size = new System.Drawing.Size(203, 32);
+            this.lblFormTitle.Size = new System.Drawing.Size(255, 41);
             this.lblFormTitle.TabIndex = 34;
             this.lblFormTitle.Text = "Update Password";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(99, 76);
+            this.label2.Location = new System.Drawing.Point(132, 94);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 21);
+            this.label2.Size = new System.Drawing.Size(73, 28);
             this.label2.TabIndex = 12;
             this.label2.Text = "Name :";
             // 
@@ -220,18 +233,20 @@
             // 
             this.lblAppMotto.AutoSize = true;
             this.lblAppMotto.Cursor = System.Windows.Forms.Cursors.Cross;
-            this.lblAppMotto.Location = new System.Drawing.Point(67, 38);
+            this.lblAppMotto.Location = new System.Drawing.Point(89, 47);
+            this.lblAppMotto.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAppMotto.Name = "lblAppMotto";
-            this.lblAppMotto.Size = new System.Drawing.Size(247, 17);
+            this.lblAppMotto.Size = new System.Drawing.Size(309, 23);
             this.lblAppMotto.TabIndex = 89;
             this.lblAppMotto.Text = "BearPass - Personal Password Manager";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(86, 181);
+            this.label5.Location = new System.Drawing.Point(115, 223);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(72, 21);
+            this.label5.Size = new System.Drawing.Size(91, 28);
             this.label5.TabIndex = 19;
             this.label5.Text = "Website :";
             // 
@@ -239,10 +254,11 @@
             // 
             this.txtWebsite.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(246)))));
             this.txtWebsite.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtWebsite.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
-            this.txtWebsite.Location = new System.Drawing.Point(164, 179);
+            this.txtWebsite.ForeColor = System.Drawing.Color.Black;
+            this.txtWebsite.Location = new System.Drawing.Point(219, 220);
+            this.txtWebsite.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtWebsite.Name = "txtWebsite";
-            this.txtWebsite.Size = new System.Drawing.Size(225, 29);
+            this.txtWebsite.Size = new System.Drawing.Size(299, 34);
             this.txtWebsite.TabIndex = 4;
             this.txtWebsite.TextChanged += new System.EventHandler(this.ForSaveBtnEnable);
             // 
@@ -250,19 +266,21 @@
             // 
             this.txtUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(246)))));
             this.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
-            this.txtUsername.Location = new System.Drawing.Point(164, 144);
+            this.txtUsername.ForeColor = System.Drawing.Color.Black;
+            this.txtUsername.Location = new System.Drawing.Point(219, 177);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(225, 29);
+            this.txtUsername.Size = new System.Drawing.Size(299, 34);
             this.txtUsername.TabIndex = 3;
             this.txtUsername.TextChanged += new System.EventHandler(this.ForSaveBtnEnable);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(70, 146);
+            this.label1.Location = new System.Drawing.Point(93, 180);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 21);
+            this.label1.Size = new System.Drawing.Size(108, 28);
             this.label1.TabIndex = 16;
             this.label1.Text = "Username :";
             // 
@@ -270,10 +288,11 @@
             // 
             this.txtEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(246)))));
             this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
-            this.txtEmail.Location = new System.Drawing.Point(164, 109);
+            this.txtEmail.ForeColor = System.Drawing.Color.Black;
+            this.txtEmail.Location = new System.Drawing.Point(219, 134);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(225, 29);
+            this.txtEmail.Size = new System.Drawing.Size(299, 34);
             this.txtEmail.TabIndex = 2;
             this.txtEmail.TextChanged += new System.EventHandler(this.ForSaveBtnEnable);
             // 
@@ -283,19 +302,21 @@
             this.txtName.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.HistoryList;
             this.txtName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(246)))));
             this.txtName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
-            this.txtName.Location = new System.Drawing.Point(164, 74);
+            this.txtName.ForeColor = System.Drawing.Color.Black;
+            this.txtName.Location = new System.Drawing.Point(219, 91);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(225, 29);
+            this.txtName.Size = new System.Drawing.Size(299, 34);
             this.txtName.TabIndex = 1;
             this.txtName.TextChanged += new System.EventHandler(this.ForSaveBtnEnable);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(103, 111);
+            this.label3.Location = new System.Drawing.Point(137, 137);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 21);
+            this.label3.Size = new System.Drawing.Size(68, 28);
             this.label3.TabIndex = 13;
             this.label3.Text = "Email :";
             // 
@@ -307,24 +328,26 @@
             this.TitlePanel.Controls.Add(this.lblAppMotto);
             this.TitlePanel.Cursor = System.Windows.Forms.Cursors.Cross;
             this.TitlePanel.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.TitlePanel.Location = new System.Drawing.Point(95, 2);
+            this.TitlePanel.Location = new System.Drawing.Point(126, 2);
+            this.TitlePanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TitlePanel.Name = "TitlePanel";
-            this.TitlePanel.Size = new System.Drawing.Size(321, 70);
+            this.TitlePanel.Size = new System.Drawing.Size(428, 86);
             this.TitlePanel.TabIndex = 77;
             // 
             // TitlePictureBox
             // 
             this.TitlePictureBox.Image = global::PasswordManager.App.Properties.Resources.flag_bear;
-            this.TitlePictureBox.Location = new System.Drawing.Point(3, 5);
+            this.TitlePictureBox.Location = new System.Drawing.Point(4, 6);
+            this.TitlePictureBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TitlePictureBox.Name = "TitlePictureBox";
-            this.TitlePictureBox.Size = new System.Drawing.Size(60, 60);
+            this.TitlePictureBox.Size = new System.Drawing.Size(80, 74);
             this.TitlePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.TitlePictureBox.TabIndex = 10;
             this.TitlePictureBox.TabStop = false;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(140)))), ((int)(((byte)(235)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.txtWebsite);
             this.panel1.Controls.Add(this.txtUsername);
@@ -339,20 +362,22 @@
             this.panel1.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.panel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(239)))), ((int)(((byte)(241)))));
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(484, 461);
+            this.panel1.Size = new System.Drawing.Size(643, 558);
             this.panel1.TabIndex = 51;
             // 
             // UpdatePassword
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 461);
+            this.ClientSize = new System.Drawing.Size(643, 558);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(500, 500);
-            this.MinimumSize = new System.Drawing.Size(500, 500);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximumSize = new System.Drawing.Size(661, 605);
+            this.MinimumSize = new System.Drawing.Size(661, 605);
             this.Name = "UpdatePassword";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;

@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             this.MenuPanel = new System.Windows.Forms.Panel();
             this.lblMassege = new System.Windows.Forms.Label();
@@ -312,13 +312,12 @@
             this.btnTitle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTitle.ForeColor = System.Drawing.Color.White;
-            this.btnTitle.Image = global::PasswordManager.App.Properties.Resources.flag_bear;
-            this.btnTitle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTitle.Location = new System.Drawing.Point(9, 0);
+            this.btnTitle.Image = ((System.Drawing.Image)(resources.GetObject("btnTitle.Image")));
+            this.btnTitle.Location = new System.Drawing.Point(10, 3);
             this.btnTitle.Name = "btnTitle";
             this.btnTitle.Size = new System.Drawing.Size(207, 84);
             this.btnTitle.TabIndex = 7;
-            this.btnTitle.Text = "Password Manager";
+            this.btnTitle.Text = "SafePass";
             this.btnTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTitle.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTitle.UseVisualStyleBackColor = false;
