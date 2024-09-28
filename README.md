@@ -38,7 +38,7 @@ This Password Manager is a desktop application built using C# .NET and Windows F
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-repo/password-manager.git
+   git clone https://github.com/dhruvburada/SafePass
    ```
 
 2. **Build the Application:**
