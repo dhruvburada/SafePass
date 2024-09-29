@@ -113,7 +113,7 @@ namespace PasswordManager.Globals
         {
             get
             {
-                return "https://github.com/dhruvburada/SafePass";
+                return "https://github.com/SajjadArifGul/PasswordManager";
             }
         }
 

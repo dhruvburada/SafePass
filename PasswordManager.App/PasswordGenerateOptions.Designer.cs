@@ -155,6 +155,7 @@
             // 
             this.RequireSpaceCheckBox.AutoSize = true;
             this.RequireSpaceCheckBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RequireSpaceCheckBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
             this.RequireSpaceCheckBox.Location = new System.Drawing.Point(224, 162);
             this.RequireSpaceCheckBox.Name = "RequireSpaceCheckBox";
             this.RequireSpaceCheckBox.Size = new System.Drawing.Size(14, 13);
@@ -167,6 +168,7 @@
             // 
             this.RequireUnderscoreCheckBox.AutoSize = true;
             this.RequireUnderscoreCheckBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RequireUnderscoreCheckBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
             this.RequireUnderscoreCheckBox.Location = new System.Drawing.Point(224, 138);
             this.RequireUnderscoreCheckBox.Name = "RequireUnderscoreCheckBox";
             this.RequireUnderscoreCheckBox.Size = new System.Drawing.Size(14, 13);
@@ -179,6 +181,7 @@
             // 
             this.RequireSpecialCheckBox.AutoSize = true;
             this.RequireSpecialCheckBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RequireSpecialCheckBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
             this.RequireSpecialCheckBox.Location = new System.Drawing.Point(224, 114);
             this.RequireSpecialCheckBox.Name = "RequireSpecialCheckBox";
             this.RequireSpecialCheckBox.Size = new System.Drawing.Size(14, 13);
@@ -191,6 +194,7 @@
             // 
             this.RequireNumberCheckBox.AutoSize = true;
             this.RequireNumberCheckBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RequireNumberCheckBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
             this.RequireNumberCheckBox.Location = new System.Drawing.Point(224, 90);
             this.RequireNumberCheckBox.Name = "RequireNumberCheckBox";
             this.RequireNumberCheckBox.Size = new System.Drawing.Size(14, 13);
@@ -203,6 +207,7 @@
             // 
             this.RequireUppercaseCheckBox.AutoSize = true;
             this.RequireUppercaseCheckBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RequireUppercaseCheckBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
             this.RequireUppercaseCheckBox.Location = new System.Drawing.Point(224, 66);
             this.RequireUppercaseCheckBox.Name = "RequireUppercaseCheckBox";
             this.RequireUppercaseCheckBox.Size = new System.Drawing.Size(14, 13);
@@ -215,6 +220,7 @@
             // 
             this.RequireLowercaseCheckBox.AutoSize = true;
             this.RequireLowercaseCheckBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RequireLowercaseCheckBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
             this.RequireLowercaseCheckBox.Location = new System.Drawing.Point(224, 42);
             this.RequireLowercaseCheckBox.Name = "RequireLowercaseCheckBox";
             this.RequireLowercaseCheckBox.Size = new System.Drawing.Size(14, 13);
@@ -227,6 +233,7 @@
             // 
             this.AllowSpaceCheckBox.AutoSize = true;
             this.AllowSpaceCheckBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AllowSpaceCheckBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
             this.AllowSpaceCheckBox.Location = new System.Drawing.Point(158, 162);
             this.AllowSpaceCheckBox.Name = "AllowSpaceCheckBox";
             this.AllowSpaceCheckBox.Size = new System.Drawing.Size(14, 13);
@@ -239,6 +246,7 @@
             // 
             this.AllowUnderscoreCheckBox.AutoSize = true;
             this.AllowUnderscoreCheckBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AllowUnderscoreCheckBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
             this.AllowUnderscoreCheckBox.Location = new System.Drawing.Point(158, 138);
             this.AllowUnderscoreCheckBox.Name = "AllowUnderscoreCheckBox";
             this.AllowUnderscoreCheckBox.Size = new System.Drawing.Size(14, 13);
@@ -251,6 +259,7 @@
             // 
             this.AllowSpecialCheckBox.AutoSize = true;
             this.AllowSpecialCheckBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AllowSpecialCheckBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
             this.AllowSpecialCheckBox.Location = new System.Drawing.Point(158, 114);
             this.AllowSpecialCheckBox.Name = "AllowSpecialCheckBox";
             this.AllowSpecialCheckBox.Size = new System.Drawing.Size(14, 13);
@@ -265,6 +274,7 @@
             this.AllowNumberCheckBox.Checked = true;
             this.AllowNumberCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.AllowNumberCheckBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AllowNumberCheckBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
             this.AllowNumberCheckBox.Location = new System.Drawing.Point(158, 90);
             this.AllowNumberCheckBox.Name = "AllowNumberCheckBox";
             this.AllowNumberCheckBox.Size = new System.Drawing.Size(14, 13);
@@ -279,6 +289,7 @@
             this.AllowUppercaseCheckBox.Checked = true;
             this.AllowUppercaseCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.AllowUppercaseCheckBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AllowUppercaseCheckBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
             this.AllowUppercaseCheckBox.Location = new System.Drawing.Point(158, 66);
             this.AllowUppercaseCheckBox.Name = "AllowUppercaseCheckBox";
             this.AllowUppercaseCheckBox.Size = new System.Drawing.Size(14, 13);
@@ -311,6 +322,7 @@
             this.AllowLowercaseCheckBox.Checked = true;
             this.AllowLowercaseCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.AllowLowercaseCheckBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AllowLowercaseCheckBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(38)))), ((int)(((byte)(53)))));
             this.AllowLowercaseCheckBox.Location = new System.Drawing.Point(158, 42);
             this.AllowLowercaseCheckBox.Name = "AllowLowercaseCheckBox";
             this.AllowLowercaseCheckBox.Size = new System.Drawing.Size(14, 13);

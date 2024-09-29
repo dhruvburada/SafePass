@@ -43,7 +43,7 @@ namespace PasswordManager.Globals
             MaximumCharacters = 12
         };
 
-        public static Color DefaultColor = Color.FromArgb(67, 140, 235);
+        public static Color DefaultColor = Color.FromArgb(9, 38, 53);
         public static Color ErrorColor = Color.FromArgb(244, 67, 54);
         public static Color WarningColor = Color.FromArgb(245, 124, 0);
 
