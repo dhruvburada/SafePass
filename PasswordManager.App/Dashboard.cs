@@ -129,8 +129,8 @@ namespace PasswordManager.App
         {
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Title = "Import Passwords";
-            ofd.DefaultExt = "bpf";
-            ofd.Filter = Globals.Information.AppName + " files (*.bpf)|*.bpf|All files (*.*)|*.*";
+            ofd.DefaultExt = "safepass";
+            ofd.Filter = Globals.Information.AppName + " files (*.safepass)|*.safepass|All files (*.*)|*.*";
             ofd.FilterIndex = 1;
             ofd.CheckPathExists = true;
             ofd.RestoreDirectory = true;
@@ -161,8 +161,8 @@ namespace PasswordManager.App
         {
             SaveFileDialog sfd = new SaveFileDialog();
             sfd.Title = "Export Passwords";
-            sfd.DefaultExt = "bpf";
-            sfd.Filter = Globals.Information.AppName + " files (*.bpf)|*.bpf|All files (*.*)|*.*";
+            sfd.DefaultExt = "safePass";
+            sfd.Filter = Globals.Information.AppName + " files (*.safePass)|*.safePass|All files (*.*)|*.*";
             sfd.FilterIndex = 1;
             sfd.CheckPathExists = true;
             sfd.RestoreDirectory = true;

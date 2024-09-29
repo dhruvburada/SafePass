@@ -10,7 +10,7 @@ namespace PasswordManager.Globals
     {
         public static string AppName { get
             {
-                return "BearPass";
+                return "SafePass";
             }
         }
 
@@ -37,7 +37,7 @@ namespace PasswordManager.Globals
         {
             get
             {
-                return @"My Name is Sajjad Arif Gul and I am the developer of " + AppName 
+                return @"My Name is Dhruv Burada and I am the developer of " + AppName 
                         + @". Why did I develop this software when I could just used other brilliant password managers available on the internet?"
                         + @" Sure, the reason is I wanted to know and control the process that goes behind the app interface. "
                         + AppName + @" keeps all passwords in encrypted format in a file stored on the user computer unlike"
@@ -50,7 +50,7 @@ namespace PasswordManager.Globals
         {
             get
             {
-                return "Sajjad Arif Gul";
+                return "Dhruv Burada";
             }
         }
 
@@ -66,7 +66,7 @@ namespace PasswordManager.Globals
         {
             get
             {
-                return "www.sajjadgul.com";
+                return "dhruvburada.netlify.app/";
             }
         }
 
@@ -74,7 +74,7 @@ namespace PasswordManager.Globals
         {
             get
             {
-                return "http://www.sajjadgul.com/";
+                return "dhruvburada.netlify.app/";
             }
         }
 
@@ -82,14 +82,14 @@ namespace PasswordManager.Globals
         {
             get
             {
-                return "https://www.facebook.com/imSajjadArifGul";
+                return "https://www.facebook.com/dhruv.burada";
             }
         }
         public static string TwitterLink
         {
             get
             {
-                return "https://twitter.com/SajjadArifGul";
+                return "https://x.com/dhruvburada";
             }
         }
 
@@ -105,7 +105,7 @@ namespace PasswordManager.Globals
         {
             get
             {
-                return "https://www.linkedin.com/in/sajjadarifgul";
+                return "https://www.linkedin.com/in/dhruv-burada";
             }
         }
 
@@ -113,7 +113,7 @@ namespace PasswordManager.Globals
         {
             get
             {
-                return "https://github.com/SajjadArifGul/PasswordManager";
+                return "https://github.com/dhruvburada/SafePass";
             }
         }
 
