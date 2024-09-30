@@ -93,5 +93,10 @@ namespace PasswordManager.App
                 Messenger.Show(ex.Message + " " + ex.HResult, "Error");
             }
         }
+
+        private void lblAppMotto_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

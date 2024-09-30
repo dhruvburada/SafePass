@@ -40,7 +40,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.TitlePanel = new System.Windows.Forms.Panel();
             this.lblFormTitle = new System.Windows.Forms.Label();
-            this.TitlePictureBox = new System.Windows.Forms.PictureBox();
             this.lblAppMotto = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnCancel = new System.Windows.Forms.Button();
@@ -51,10 +50,11 @@
             this.btnSave = new System.Windows.Forms.Button();
             this.btnGenerate = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.TitlePanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.TitlePictureBox)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -163,9 +163,9 @@
             // TitlePanel
             // 
             this.TitlePanel.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.TitlePanel.Controls.Add(this.lblFormTitle);
-            this.TitlePanel.Controls.Add(this.TitlePictureBox);
             this.TitlePanel.Controls.Add(this.lblAppMotto);
+            this.TitlePanel.Controls.Add(this.lblFormTitle);
+            this.TitlePanel.Controls.Add(this.pictureBox1);
             this.TitlePanel.Cursor = System.Windows.Forms.Cursors.Cross;
             this.TitlePanel.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
             this.TitlePanel.Location = new System.Drawing.Point(94, 2);
@@ -183,25 +183,15 @@
             this.lblFormTitle.TabIndex = 34;
             this.lblFormTitle.Text = "New Password";
             // 
-            // TitlePictureBox
-            // 
-            this.TitlePictureBox.Image = global::PasswordManager.App.Properties.Resources.flag_bear;
-            this.TitlePictureBox.Location = new System.Drawing.Point(3, 5);
-            this.TitlePictureBox.Name = "TitlePictureBox";
-            this.TitlePictureBox.Size = new System.Drawing.Size(60, 60);
-            this.TitlePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.TitlePictureBox.TabIndex = 10;
-            this.TitlePictureBox.TabStop = false;
-            // 
             // lblAppMotto
             // 
             this.lblAppMotto.AutoSize = true;
             this.lblAppMotto.Cursor = System.Windows.Forms.Cursors.Cross;
             this.lblAppMotto.Location = new System.Drawing.Point(67, 38);
             this.lblAppMotto.Name = "lblAppMotto";
-            this.lblAppMotto.Size = new System.Drawing.Size(309, 23);
+            this.lblAppMotto.Size = new System.Drawing.Size(308, 23);
             this.lblAppMotto.TabIndex = 89;
-            this.lblAppMotto.Text = "BearPass - Personal Password Manager";
+            this.lblAppMotto.Text = "SafePass - Personal Password Manager";
             // 
             // panel2
             // 
@@ -345,6 +335,17 @@
             this.label7.TabIndex = 23;
             this.label7.Text = "Notes :";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(4, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(70, 66);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 91;
+            this.pictureBox1.TabStop = false;
+            // 
             // NewPassword
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -366,9 +367,9 @@
             this.panel1.PerformLayout();
             this.TitlePanel.ResumeLayout(false);
             this.TitlePanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.TitlePictureBox)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -379,7 +380,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel TitlePanel;
         private System.Windows.Forms.Label lblFormTitle;
-        private System.Windows.Forms.PictureBox TitlePictureBox;
         private System.Windows.Forms.Label lblAppMotto;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtName;
@@ -397,5 +397,6 @@
         private System.Windows.Forms.Button btnOptions;
         private System.Windows.Forms.RichTextBox rtxtNotes;
         private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

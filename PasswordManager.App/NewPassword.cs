@@ -90,5 +90,10 @@ namespace PasswordManager.App
         {
             this.Close();
         }
+
+        private void TitlePictureBox_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

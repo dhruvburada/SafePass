@@ -256,6 +256,19 @@ namespace PasswordManager.App
 
         private async void PasswordsGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            //default row styles
+            PasswordsGridView.RowsDefaultCellStyle.BackColor = Color.FromArgb(27, 66, 66);
+            PasswordsGridView.RowsDefaultCellStyle.ForeColor = Color.White;
+            PasswordsGridView.DefaultCellStyle.SelectionBackColor = Color.FromArgb(92, 131, 116);
+            PasswordsGridView.DefaultCellStyle.SelectionForeColor = Color.White;
+
+            // Set the alternating row color (for even rows)
+            PasswordsGridView.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(27, 66, 66);
+            PasswordsGridView.AlternatingRowsDefaultCellStyle.SelectionBackColor = Color.FromArgb(92, 131, 116);  // Same color for even rows
+            PasswordsGridView.AlternatingRowsDefaultCellStyle.SelectionForeColor = Color.White;
+
+            //PasswordsGridView.AlternatingRowsDefaultCellStyle.BackColor = Color.Empty;
+            //PasswordsGridView.DefaultCellStyle.SelectionBackColor = Color.FromArgb(92, 131, 116);
             if (e.RowIndex >= 0)
             {
                 if (PasswordsGridView.Columns[e.ColumnIndex].Name == "ColCopy")

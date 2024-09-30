@@ -3,44 +3,88 @@
   "WorkspaceRootPath": "D:\\Learning\\Practice\\C#\\PasswordManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|d:\\learning\\practice\\c#\\passwordmanager\\passwordmanager.app\\passwordgenerateoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|solutionrelative:passwordmanager.app\\passwordgenerateoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|d:\\learning\\practice\\c#\\passwordmanager\\passwordmanager.app\\settingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|solutionrelative:passwordmanager.app\\settingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{375CC2D7-518E-4573-A749-061AE3F1C0AE}|PasswordManager.Globals\\PasswordManager.Globals.csproj|d:\\learning\\practice\\c#\\passwordmanager\\passwordmanager.globals\\defaults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{375CC2D7-518E-4573-A749-061AE3F1C0AE}|PasswordManager.Globals\\PasswordManager.Globals.csproj|solutionrelative:passwordmanager.globals\\defaults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|d:\\learning\\practice\\c#\\passwordmanager\\passwordmanager.app\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|D:\\Learning\\Practice\\C#\\PasswordManager\\passwordmanager.app\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|solutionrelative:passwordmanager.app\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{375CC2D7-518E-4573-A749-061AE3F1C0AE}|PasswordManager.Globals\\PasswordManager.Globals.csproj|d:\\learning\\practice\\c#\\passwordmanager\\passwordmanager.globals\\information.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|D:\\Learning\\Practice\\C#\\PasswordManager\\passwordmanager.app\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|solutionrelative:passwordmanager.app\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{375CC2D7-518E-4573-A749-061AE3F1C0AE}|PasswordManager.Globals\\PasswordManager.Globals.csproj|d:\\learning\\practice\\c#\\passwordmanager\\passwordmanager.globals\\variables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{375CC2D7-518E-4573-A749-061AE3F1C0AE}|PasswordManager.Globals\\PasswordManager.Globals.csproj|solutionrelative:passwordmanager.globals\\variables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{375CC2D7-518E-4573-A749-061AE3F1C0AE}|PasswordManager.Globals\\PasswordManager.Globals.csproj|d:\\learning\\practice\\c#\\passwordmanager\\passwordmanager.globals\\verifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{375CC2D7-518E-4573-A749-061AE3F1C0AE}|PasswordManager.Globals\\PasswordManager.Globals.csproj|solutionrelative:passwordmanager.globals\\verifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{375CC2D7-518E-4573-A749-061AE3F1C0AE}|PasswordManager.Globals\\PasswordManager.Globals.csproj|D:\\Learning\\Practice\\C#\\PasswordManager\\passwordmanager.globals\\information.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{375CC2D7-518E-4573-A749-061AE3F1C0AE}|PasswordManager.Globals\\PasswordManager.Globals.csproj|solutionrelative:passwordmanager.globals\\information.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{375CC2D7-518E-4573-A749-061AE3F1C0AE}|PasswordManager.Globals\\PasswordManager.Globals.csproj|D:\\Learning\\Practice\\C#\\PasswordManager\\passwordmanager.globals\\defaults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{375CC2D7-518E-4573-A749-061AE3F1C0AE}|PasswordManager.Globals\\PasswordManager.Globals.csproj|solutionrelative:passwordmanager.globals\\defaults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AF1A3F-28E9-425D-A87E-035591B53FBD}|PasswordManager.Theme\\PasswordManager.Theme.csproj|d:\\learning\\practice\\c#\\passwordmanager\\passwordmanager.theme\\colors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AF1A3F-28E9-425D-A87E-035591B53FBD}|PasswordManager.Theme\\PasswordManager.Theme.csproj|solutionrelative:passwordmanager.theme\\colors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|D:\\Learning\\Practice\\C#\\PasswordManager\\passwordmanager.app\\updatepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|solutionrelative:passwordmanager.app\\updatepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|d:\\learning\\practice\\c#\\passwordmanager\\passwordmanager.app\\newpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|solutionrelative:passwordmanager.app\\newpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|d:\\learning\\practice\\c#\\passwordmanager\\passwordmanager.app\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|solutionrelative:passwordmanager.app\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|D:\\Learning\\Practice\\C#\\PasswordManager\\passwordmanager.app\\settingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|solutionrelative:passwordmanager.app\\settingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|D:\\Learning\\Practice\\C#\\PasswordManager\\passwordmanager.app\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|solutionrelative:passwordmanager.app\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|d:\\learning\\practice\\c#\\passwordmanager\\passwordmanager.app\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|solutionrelative:passwordmanager.app\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|d:\\learning\\practice\\c#\\passwordmanager\\passwordmanager.app\\passwordgenerateoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|solutionrelative:passwordmanager.app\\passwordgenerateoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|d:\\learning\\practice\\c#\\passwordmanager\\passwordmanager.app\\newpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|solutionrelative:passwordmanager.app\\newpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|d:\\learning\\practice\\c#\\passwordmanager\\passwordmanager.app\\masterpasswordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|solutionrelative:passwordmanager.app\\masterpasswordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|D:\\Learning\\Practice\\C#\\PasswordManager\\passwordmanager.app\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|solutionrelative:passwordmanager.app\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|d:\\learning\\practice\\c#\\passwordmanager\\passwordmanager.app\\guide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|solutionrelative:passwordmanager.app\\guide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|D:\\Learning\\Practice\\C#\\PasswordManager\\passwordmanager.app\\newpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|solutionrelative:passwordmanager.app\\newpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|d:\\learning\\practice\\c#\\passwordmanager\\passwordmanager.app\\updatepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A36CCED-A247-455C-B895-7FE0ED02FC03}|PasswordManager.App\\PasswordManager.App.csproj|solutionrelative:passwordmanager.app\\updatepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A5C6F1F-E50B-4265-A71E-94087685B895}|PasswordManager.Entities\\PasswordManager.Entities.csproj|d:\\learning\\practice\\c#\\passwordmanager\\passwordmanager.entities\\passwordoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A5C6F1F-E50B-4265-A71E-94087685B895}|PasswordManager.Entities\\PasswordManager.Entities.csproj|solutionrelative:passwordmanager.entities\\passwordoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5593C6E4-1E62-4457-A707-FBA761366E54}|PasswordManager.Data\\PasswordManager.Data.csproj|d:\\learning\\practice\\c#\\passwordmanager\\passwordmanager.data\\passwordsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5593C6E4-1E62-4457-A707-FBA761366E54}|PasswordManager.Data\\PasswordManager.Data.csproj|solutionrelative:passwordmanager.data\\passwordsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A5C6F1F-E50B-4265-A71E-94087685B895}|PasswordManager.Entities\\PasswordManager.Entities.csproj|d:\\learning\\practice\\c#\\passwordmanager\\passwordmanager.entities\\password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A5C6F1F-E50B-4265-A71E-94087685B895}|PasswordManager.Entities\\PasswordManager.Entities.csproj|solutionrelative:passwordmanager.entities\\password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,11 +94,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 16,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Variables.cs",
+              "DocumentMoniker": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.Globals\\Variables.cs",
+              "RelativeDocumentMoniker": "PasswordManager.Globals\\Variables.cs",
+              "ToolTip": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.Globals\\Variables.cs",
+              "RelativeToolTip": "PasswordManager.Globals\\Variables.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:46:42.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Verifier.cs",
+              "DocumentMoniker": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.Globals\\Verifier.cs",
+              "RelativeDocumentMoniker": "PasswordManager.Globals\\Verifier.cs",
+              "ToolTip": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.Globals\\Verifier.cs",
+              "RelativeToolTip": "PasswordManager.Globals\\Verifier.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:46:38.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Colors.cs",
+              "DocumentMoniker": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.Theme\\Colors.cs",
+              "RelativeDocumentMoniker": "PasswordManager.Theme\\Colors.cs",
+              "ToolTip": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.Theme\\Colors.cs",
+              "RelativeToolTip": "PasswordManager.Theme\\Colors.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:46:17.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Guide.cs [Design]",
+              "DocumentMoniker": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.App\\Guide.cs",
+              "RelativeDocumentMoniker": "PasswordManager.App\\Guide.cs",
+              "ToolTip": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.App\\Guide.cs [Design]",
+              "RelativeToolTip": "PasswordManager.App\\Guide.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:24:44.845Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MasterPasswordForm.cs [Design]",
+              "DocumentMoniker": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.App\\MasterPasswordForm.cs",
+              "RelativeDocumentMoniker": "PasswordManager.App\\MasterPasswordForm.cs",
+              "ToolTip": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.App\\MasterPasswordForm.cs [Design]",
+              "RelativeToolTip": "PasswordManager.App\\MasterPasswordForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:24:42.414Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UpdatePassword.cs",
+              "DocumentMoniker": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.App\\UpdatePassword.cs",
+              "RelativeDocumentMoniker": "PasswordManager.App\\UpdatePassword.cs",
+              "ToolTip": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.App\\UpdatePassword.cs",
+              "RelativeToolTip": "PasswordManager.App\\UpdatePassword.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAAwGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:16:10.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NewPassword.cs [Design]",
+              "DocumentMoniker": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.App\\NewPassword.cs",
+              "RelativeDocumentMoniker": "PasswordManager.App\\NewPassword.cs",
+              "ToolTip": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.App\\NewPassword.cs [Design]",
+              "RelativeToolTip": "PasswordManager.App\\NewPassword.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:15:31.701Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Register.cs [Design]",
+              "DocumentMoniker": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.App\\Register.cs",
+              "RelativeDocumentMoniker": "PasswordManager.App\\Register.cs",
+              "ToolTip": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.App\\Register.cs [Design]",
+              "RelativeToolTip": "PasswordManager.App\\Register.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:15:26.531Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PasswordsData.cs",
+              "DocumentMoniker": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.Data\\PasswordsData.cs",
+              "RelativeDocumentMoniker": "PasswordManager.Data\\PasswordsData.cs",
+              "ToolTip": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.Data\\PasswordsData.cs",
+              "RelativeToolTip": "PasswordManager.Data\\PasswordsData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:10:52.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PasswordOptions.cs",
+              "DocumentMoniker": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.Entities\\PasswordOptions.cs",
+              "RelativeDocumentMoniker": "PasswordManager.Entities\\PasswordOptions.cs",
+              "ToolTip": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.Entities\\PasswordOptions.cs",
+              "RelativeToolTip": "PasswordManager.Entities\\PasswordOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:10:38.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Password.cs",
+              "DocumentMoniker": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.Entities\\Password.cs",
+              "RelativeDocumentMoniker": "PasswordManager.Entities\\Password.cs",
+              "ToolTip": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.Entities\\Password.cs",
+              "RelativeToolTip": "PasswordManager.Entities\\Password.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:10:36.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "PasswordGenerateOptions.cs [Design]",
               "DocumentMoniker": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.App\\PasswordGenerateOptions.cs",
               "RelativeDocumentMoniker": "PasswordManager.App\\PasswordGenerateOptions.cs",
@@ -66,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "SettingsForm.cs [Design]",
               "DocumentMoniker": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.App\\SettingsForm.cs",
               "RelativeDocumentMoniker": "PasswordManager.App\\SettingsForm.cs",
@@ -78,13 +265,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Defaults.cs",
               "DocumentMoniker": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.Globals\\Defaults.cs",
               "RelativeDocumentMoniker": "PasswordManager.Globals\\Defaults.cs",
               "ToolTip": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.Globals\\Defaults.cs",
               "RelativeToolTip": "PasswordManager.Globals\\Defaults.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAAwC0AAABDAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAwC0AAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T07:04:57.54Z",
               "EditorCaption": ""
@@ -97,31 +284,27 @@
               "RelativeDocumentMoniker": "PasswordManager.Globals\\Information.cs",
               "ToolTip": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.Globals\\Information.cs",
               "RelativeToolTip": "PasswordManager.Globals\\Information.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAIwHMAAABIAAAA",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAmwHMAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T06:55:27.666Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Dashboard.cs",
               "DocumentMoniker": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.App\\Dashboard.cs",
               "RelativeDocumentMoniker": "PasswordManager.App\\Dashboard.cs",
               "ToolTip": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.App\\Dashboard.cs",
               "RelativeToolTip": "PasswordManager.App\\Dashboard.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAANIAAAAMAAAA",
+              "ViewState": "AQIAAA8BAAAAAAAAAAAUwCMBAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T06:52:39.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Dashboard.cs [Design]",
               "DocumentMoniker": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.App\\Dashboard.cs",
               "RelativeDocumentMoniker": "PasswordManager.App\\Dashboard.cs",
@@ -133,20 +316,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "NewPassword.cs",
               "DocumentMoniker": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.App\\NewPassword.cs",
               "RelativeDocumentMoniker": "PasswordManager.App\\NewPassword.cs",
               "ToolTip": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.App\\NewPassword.cs",
               "RelativeToolTip": "PasswordManager.App\\NewPassword.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAwwB8AAAApAAAA",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAtwFMAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-28T03:12:57.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "UpdatePassword.cs [Design]",
               "DocumentMoniker": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.App\\UpdatePassword.cs",
               "RelativeDocumentMoniker": "PasswordManager.App\\UpdatePassword.cs",
@@ -158,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.App\\Login.cs",
               "RelativeDocumentMoniker": "PasswordManager.App\\Login.cs",
@@ -170,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Search.cs [Design]",
               "DocumentMoniker": "D:\\Learning\\Practice\\C#\\PasswordManager\\PasswordManager.App\\Search.cs",
               "RelativeDocumentMoniker": "PasswordManager.App\\Search.cs",

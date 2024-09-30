@@ -296,7 +296,7 @@
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(118)))), ((int)(((byte)(210)))));
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
             this.PasswordsGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.PasswordsGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.PasswordsGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.PasswordsGridView.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(131)))), ((int)(((byte)(116)))));
             this.PasswordsGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.PasswordsGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
@@ -391,6 +391,7 @@
             this.ColEmail.MinimumWidth = 6;
             this.ColEmail.Name = "ColEmail";
             this.ColEmail.ReadOnly = true;
+            this.ColEmail.Width = 87;
             // 
             // ColUsername
             // 
@@ -398,6 +399,7 @@
             this.ColUsername.MinimumWidth = 6;
             this.ColUsername.Name = "ColUsername";
             this.ColUsername.ReadOnly = true;
+            this.ColUsername.Width = 127;
             // 
             // ColPassword
             // 
@@ -405,6 +407,7 @@
             this.ColPassword.MinimumWidth = 6;
             this.ColPassword.Name = "ColPassword";
             this.ColPassword.ReadOnly = true;
+            this.ColPassword.Width = 121;
             // 
             // ColCopy
             // 
